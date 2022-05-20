@@ -1,0 +1,46 @@
+.form_wrapper {
+  margin-top: 2rem;
+  border: 2px solid black;
+  border-radius: 20px;
+  max-width: 40%;
+  padding: 2rem;
+  transition: 0.5s;
+  transform: scale(0.9);
+}
+.form_wrapper:hover{
+  transform: scale(1.1);
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+input {
+  padding: 10px;
+  transition: 0.5s;
+  transform: scale(0.9);
+}
+input:hover{
+  transform: scale(1.1);
+}
+label {
+  display: block;
+}
+
+button {
+  background-color: #1b34f0;
+  margin-top: 30px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  transition: 0.5s;
+  transform: scale(0.9);
+}
+button:hover{
+  color: aliceblue;
+  background-color: #666;
+  transform: scale(1.1);
+
+}

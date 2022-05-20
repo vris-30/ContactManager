@@ -1,0 +1,22 @@
+@import url(https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap);
+*,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: rgb(0, 0, 0);
+  font-family: Nunito;
+  font-size: 16px;
+  background: #16222A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  background-color: transparent;
+}
